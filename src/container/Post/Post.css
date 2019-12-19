@@ -1,0 +1,35 @@
+.form-post{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+
+}
+.title-post{
+    width: 80%;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 5px 15px;
+    margin: 5px auto;
+}
+.message-text{
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 15px 15px;
+    width: 80%;
+
+    margin:5px auto;
+}
+.btn-post{
+    margin: 15px auto;
+    width: 83%;
+    padding: 15px 35px;
+    border: 2px solid black;
+    border-radius: 3px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 16px;
+    background-color: #000;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,38 @@
+.btn{
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 12px;
+    width: 13%;
+    height: 100%;
+    background-color: #fff;
+}
+.link-item{
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 50px;
+}
+.link-item:hover{
+    color: rgba(130,124,124,1);
+}
+.add-post{
+    margin: 15px 0;
+    width: 83%;
+    padding: 15px 35px;
+    border: 2px solid black;
+    border-radius: 3px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 16px;
+    background-color: #000;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 1);
+    color: white;
+    cursor: cell;
+}
+.add-post:active{
+    background-color: #fff;
+    color: black;
+    box-shadow: 0 0 5px 5px rgba(255, 255, 255, 1);
+
+}
